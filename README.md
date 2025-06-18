@@ -19,10 +19,3 @@
 ### 1. Install the plugin
 
 Place the compiled `.jar` file into your server's `plugins/` directory and restart the server.
-
-### 2. Configure the shutdown time in code
-
-Example in `BackupNoti.java`:
-
-```java
-if (hour == 4 && minute == 39 && second == 0)
